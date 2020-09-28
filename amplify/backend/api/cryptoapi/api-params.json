@@ -19,8 +19,8 @@
     "privacy": {
         "auth": 0,
         "unauth": 0,
-        "authRoleName": "amplify-cryptoapp-local-130355-authRole",
-        "unAuthRoleName": "amplify-cryptoapp-local-130355-unauthRole"
+        "authRoleName": "amplify-cryptoapp-local-141156-authRole",
+        "unAuthRoleName": "amplify-cryptoapp-local-141156-unauthRole"
     },
     "dependsOn": [
         {
