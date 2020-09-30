@@ -23,7 +23,9 @@ const App = () => {
     <div className="App">
       {
         coins.map(x => (
-          <div>
+          <div
+            key={ x.symbol }
+          >
             <h2>
               { x.name } - { x.symbol}
             </h2>
