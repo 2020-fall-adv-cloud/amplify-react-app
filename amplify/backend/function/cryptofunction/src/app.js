@@ -37,6 +37,7 @@ app.get(
      {name: 'Bitcoin', symbol: 'BTC', price_usd: '10000' } 
      , {name: 'Ethereum', symbol: 'ETH', price_usd: '400' } 
      , {name: 'Litecoin', symbol: 'LTC', price_usd: '150' } 
+     , {name: 'Tomcoin', symbol: 'TC', price_usd: '150000' } 
    ];
  
    res.json({
