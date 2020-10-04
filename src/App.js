@@ -9,7 +9,7 @@ const App = () => {
   
   const fetchCoins = async () => {
     const data = await API.get('cryptoapi', '/coins');
-    setLoading(false);
+    setTimeout(() => setLoading(false), 5000);
     updateCoins(data.coins);
   }
 
