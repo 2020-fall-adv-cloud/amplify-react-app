@@ -9,9 +9,12 @@ const App = () => {
   
   const fetchCoins = async () => {
     const data = await API.get('cryptoapi', '/coins');
+    loading = false;
     updateCoins(data.coins);
   }
 
+  let loading = true;
+  
   useEffect(
     () => {
       fetchCoins();
@@ -21,7 +24,9 @@ const App = () => {
 
   return (
     <div className="App">
+      { loading && <h3>Loading coin data...</h3> }
       {
+        !loading &&
         coins.map(x => (
           <div
             key={ x.symbol }
