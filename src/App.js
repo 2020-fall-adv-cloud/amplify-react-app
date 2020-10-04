@@ -9,11 +9,11 @@ const App = () => {
   
   const fetchCoins = async () => {
     const data = await API.get('cryptoapi', '/coins');
-    loading = false;
+    setLoading(false);
     updateCoins(data.coins);
   }
 
-  let loading = true;
+  const [loading, setLoading] = useState(true);
   
   useEffect(
     () => {
