@@ -30,9 +30,19 @@ const App = () => {
 
   return (
     <div className="App">
-      <input />
-      <input />
-      <button>Fetch Coins</button>
+      <input 
+        placeholder='Start with...'
+        onChange={ e => updateInputValues('start', e.target.value) }
+      />
+      <input 
+        placeholder='Limit to...'
+        onChange={ e => updateInputValues('limit', e.target.value) }
+      />
+      <button
+        onClick={fetchCoins}
+      >
+        Fetch Coins
+      </button>
       {
         coins.map(x => (
           <div
