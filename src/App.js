@@ -8,9 +8,25 @@ const App = () => {
   const [coins, updateCoins] = useState([]);
   
   const fetchCoins = async () => {
-    const data = await API.get('cryptoapi', `/coins?limit=${input.limit}&start=${input.start}`);
-    updateCoins(data.coins);
+    try {
+      const data = await API.get('cryptoapi', `/coins?limit=${input.limit}&start=${input.start}`);
+      updateCoins(data.coins);  
+    }
+    catch(err) {
+      console.error(err);
+    }
   }
+
+  // const fetchCoins = () => {
+  //   API.get('cryptoapi', `/coins?limit=${input.limit}&start=${input.start}`)
+  //     .then(response => {
+  //       console.log(response);
+  //       updateCoins(response.coins);
+  //     })
+  //     .catch(err => {
+  //       console.error(err);
+  //     });
+  // }
 
   useEffect(
     () => {
