@@ -28,10 +28,11 @@ const App = () => {
     });
   }
 
-
-
   return (
     <div className="App">
+      <input />
+      <input />
+      <button>Fetch Coins</button>
       {
         coins.map(x => (
           <div
