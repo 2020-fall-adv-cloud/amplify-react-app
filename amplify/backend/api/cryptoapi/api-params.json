@@ -7,6 +7,13 @@
                 "open": true
             },
             "policyResourceName": "/coins"
+        },
+        {
+            "name": "/githubbornon",
+            "lambdaFunction": "cryptofunction",
+            "privacy": {
+                "open": true
+            }
         }
     ],
     "resourceName": "cryptoapi",
@@ -31,5 +38,6 @@
                 "Arn"
             ]
         }
-    ]
+    ],
+    "uuid": "3663c844"
 }

@@ -56,6 +56,15 @@ app.get(
   }
 );
 
+app.get('/githubbornon', (req, res) => {
+
+    axios.get('https://api.github.com/users/tsteelematc')
+      .then(response => {
+        res.json({ user: response.data });
+      })
+      .catch(err => res.json({ error: err }));
+  }
+);
 
 app.get('/item', function(req, res) {
   // Add your code here
