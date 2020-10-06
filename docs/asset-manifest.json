@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.88bdb6e2.chunk.js",
-    "main.js.map": "/static/js/main.88bdb6e2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.06abdcaa.js",
-    "runtime-main.js.map": "/static/js/runtime-main.06abdcaa.js.map",
-    "static/js/2.6986a1ae.chunk.js": "/static/js/2.6986a1ae.chunk.js",
-    "static/js/2.6986a1ae.chunk.js.map": "/static/js/2.6986a1ae.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a93fa296d4b6aaea44bff00788451901.js": "/precache-manifest.a93fa296d4b6aaea44bff00788451901.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.6986a1ae.chunk.js.LICENSE.txt": "/static/js/2.6986a1ae.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/amplify-react-app/static/css/main.5f361e03.chunk.css",
+    "main.js": "/amplify-react-app/static/js/main.0f88cd5e.chunk.js",
+    "main.js.map": "/amplify-react-app/static/js/main.0f88cd5e.chunk.js.map",
+    "runtime-main.js": "/amplify-react-app/static/js/runtime-main.697215da.js",
+    "runtime-main.js.map": "/amplify-react-app/static/js/runtime-main.697215da.js.map",
+    "static/js/2.6986a1ae.chunk.js": "/amplify-react-app/static/js/2.6986a1ae.chunk.js",
+    "static/js/2.6986a1ae.chunk.js.map": "/amplify-react-app/static/js/2.6986a1ae.chunk.js.map",
+    "index.html": "/amplify-react-app/index.html",
+    "precache-manifest.1e22bf90ae6f59b7c2ba7511ce9a997c.js": "/amplify-react-app/precache-manifest.1e22bf90ae6f59b7c2ba7511ce9a997c.js",
+    "service-worker.js": "/amplify-react-app/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/amplify-react-app/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.6986a1ae.chunk.js.LICENSE.txt": "/amplify-react-app/static/js/2.6986a1ae.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/amplify-react-app/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.06abdcaa.js",
+    "static/js/runtime-main.697215da.js",
     "static/js/2.6986a1ae.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.88bdb6e2.chunk.js"
+    "static/js/main.0f88cd5e.chunk.js"
   ]
 }
