@@ -28,9 +28,20 @@ const App = () => {
   //     });
   // }
 
+  const [bornOn, setBornOn] = useState({ username: 'unknown', date: 'unknown' });
+
+  const fetchBornOn = async () => {
+    const data = await API.get('cryptoapi', '/githubbornon');
+    setBornOn({
+      username: data.user.login
+      , date: data.user.created_at
+    });
+  }
+
   useEffect(
     () => {
       fetchCoins();
+      fetchBornOn();
     }
     , []
   );
@@ -45,6 +56,7 @@ const App = () => {
   }
 
   return (
+    <>
     <div className="App">
       <input 
         placeholder='Start with...'
@@ -74,6 +86,12 @@ const App = () => {
         ))
       }
     </div>
+    <div>
+      <h2>
+        { bornOn.username } - { bornOn.date }
+      </h2>
+    </div>
+    </>
   );
 }
 
