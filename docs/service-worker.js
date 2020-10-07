@@ -14,7 +14,11 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
+<<<<<<< HEAD
   "/amplify-react-app/precache-manifest.1e22bf90ae6f59b7c2ba7511ce9a997c.js"
+=======
+  "/amplify-react-app/precache-manifest.e0d9662504ed9234e07efb7e577acdda.js"
+>>>>>>> tsteele/week-06-in-class
 );
 
 self.addEventListener('message', (event) => {
