@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { API } from 'aws-amplify';
+import GitHubBornOn from './GitHubBornOn';
 
 const App = () => {
 
@@ -91,6 +92,7 @@ const App = () => {
         { bornOn.username } - { bornOn.date }
       </h2>
     </div>
+    <GitHubBornOn />
     </>
   );
 }
